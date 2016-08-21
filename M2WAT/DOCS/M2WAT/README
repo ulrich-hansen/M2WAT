@@ -7,30 +7,48 @@ COPYRIGHT 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 M2WAT
 Copyright (c) 2011 by Cordata
 
-This program is distributed under the terms of the GNU General Public License. Please read the copying file for details. 
+This program is distributed under the terms of the GNU General Public 
+License. Please read the copying file for details. 
 
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. 
-	
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. 
-	
-You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+This program is free software; you can redistribute it and/or modify 
+it under the terms of the GNU General Public License as published by 
+the Free Software Foundation; either version 2 of the License, or (at 
+your option) any later version. 
+   
+This program is distributed in the hope that it will be useful, but 
+WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+See the GNU General Public License for more details. 
+   
+You should have received a copy of the GNU General Public License 
+along with this program; if not, write to the Free Software Foundation, 
+Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-	
+   
 
 USAGE 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 
 M2WAT - Convert mTCP configuration file to WATTCP file
 Copyright 2011 by Cordata
 
-M2WAT will edit the WATTCP configuration file and input the configuration parameters which are contained in the mTCP config file. This would normally be done when using the mTCP DHCP utility. 
+M2WAT will edit the WATTCP configuration file and input the 
+configuration parameters which are contained in the mTCP config file. 
+This would normally be done when using the mTCP DHCP utility. 
 
-The MTCP.CFG environment variable is used to find the MTCP config file. The WATTCP.CFG environment variable is optional, if not present the current working directory is used. 
+The MTCP.CFG environment variable is used to find the MTCP config 
+file. The WATTCP.CFG environment variable is optional, if not present 
+the current working directory is used. 
 
-Note that the MTCP.CFG variable must refer to a file while the WATTCP.CFG variable refers to a directory. The WATTCP.CFG file is always called WATTCP.CFG. If the WATTCP.CFG file does not exist the option is provided to create it. 
+Note that the MTCP.CFG variable must refer to a file while the 
+WATTCP.CFG variable refers to a directory. The WATTCP.CFG file is 
+always called WATTCP.CFG. If the WATTCP.CFG file does not exist the 
+option is provided to create it. 
 
-Currently M2WAT will add the IP address, Gateway, Netmask and nameserver to the WATTCP.CFG file from the mTCP config file. 
+Currently M2WAT will add the IP address, Gateway, Netmask and 
+nameserver to the WATTCP.CFG file from the mTCP config file. 
 
-To use M2WAT there are no command line parameters or options. All information is taken from the environment variables. 
+To use M2WAT there are no command line parameters or options. 
+All information is taken from the environment variables. 
 
 
 OFFICIAL SITE 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
